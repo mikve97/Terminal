@@ -1,0 +1,16 @@
+WINDOWS:
+
+winget install JanDeDobbeleer.OhMyPosh
+
+IN POWERSHEL:
+
+sudo pwsh
+Install-Module oh-my-posh -Scope AllUsers
+Import-Module oh-my-posh
+
+^^^^ WSL NIET VERPLICHT!
+
+Install-Module -Name PowerShellGet -Force
+Install-Module PSReadLine -AllowPrerelease -Force
+
+Install-Module -Name Terminal-Icons -Repository PSGallery
